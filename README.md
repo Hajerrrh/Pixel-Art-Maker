@@ -1,2 +1,26 @@
 # Pixel-Art-Maker
-JavaScript application that lets the user to create a grid of squares representing their design, and apply colors to those squares to create a digital masterpiece.
+A single-page web app that allows users to draw pixel art on a customizable canvas. 
+# Pixel Art Maker Project
+
+## Table of Contents
+
+* [Instructions](#instructions)
+* [Demo](#demo)
+
+## Instructions
+
+To get started, open `designs.js` and start building out a digital masterpiece by creating a grid of squares representing your design, and applying colors to those squares.
+
+
+For more details, take a look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+
+ ## Demo
++
++[![demo](./demo.png)](http://brenopolanski.com/udacity-pixel-art-maker/)
++
++> [Check it live](http://brenopolanski.com/udacity-pixel-art-maker/).
+
+## How to get started :-
+Click on this [LINK](https://ervaibhavkumar.github.io/Udacity-Pixel-Art-Maker/) to see the live version of the website.
+### OR
+Download or Clone the Project . After getting the file , Open the index.html in your browser to see the website up and running .
