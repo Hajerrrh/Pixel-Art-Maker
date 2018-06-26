@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/jquery-2.1.1.js"></script>
+</head>
+
+
+
+<div class="wrapper">
+
+
+
+    <div class="left-container">
+        <h1 class="heading">Lab: Pixel Art Maker by Hajer</h1>
+
+        <p class="intro">
+            <h2>Choose Grid Size</h2>
+
+            <form id="sizePicker">
+                <table id="table1">
+                    <!–– used table to structurize the form in HTML  ––>
+                    <tr>
+                        <td colspan="2">
+                            <h4>Grid Height</h4>
+                        </td>
+                        <td>
+                            <input type="number" id="inputHeight" name="height" min="1" value="1">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <h4>Grid Width</h4>
+                        </td>
+                        <td>
+                            <input type="number" id="inputWeight" name="width" min="1" value="1"> </tr>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <input type="submit">
+                        </td>
+                    </tr>
+                </table>
+
+            </form>
+
+            <h2>Pick A Color</h2>
+            <input type="color" id="colorPicker">
+    </div>
+    <div class="right-container">
+
+
+        <h3>Design Canvas</h3>
+
+
+        <div class="content">
+            <table id="pixelCanvas"></table>
+        </div>
+
+    </div>
+</div>
+
+
+
+<!-- Used image to practice some jquery animation methods (slide up/down)-->
+<img id="overlay" src="alc.jpg" alt="">
+
+
+
+<script src="designs.js"></script>
+</body>
+
+</html>

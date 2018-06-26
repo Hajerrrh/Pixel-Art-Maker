@@ -1,0 +1,122 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.1em;
+    color: #D05A00;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    font-family: 'Anton', sans-serif;
+    color: antiquewhite;
+}
+
+h3 {
+    color: #33c1da;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 4em;
+}
+
+h4 {
+    font-family: 'Poiret One', cursive;
+    color: aliceblue;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+#pixelCanvas td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
+#table1 tr,
+td,
+table {
+    border: 0;
+}
+
+input {
+    font-family: 'Poiret One', cursive;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #D05A00;
+    margin-bottom: 5px;
+    display: block;
+    padding: 4px;
+    border: solid 2px white;
+    width: 200px;
+}
+
+#colorPicker {
+    display: inline;
+    padding: 4px;
+    border: solid 2px white;
+    width: 200px;
+}
+
+#overlay {
+    width: 100%;
+    position: absolute;
+    /*You may also use fixed depending on your needs.*/
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+
+.left-container {
+    text-align: center;
+}
+
+.right-container {
+    background-color:aliceblue;
+}
+
+@media (min-width: 300px) {
+    .wrapper {
+        display: flex;
+    }
+    .left-container {
+        background-color: #33c1da;
+        width: calc(50% - 12%);
+        flex: 1;
+        padding: 5% 6% 7% 6%;
+        
+        
+    }
+    .right-container {
+        flex: 2;
+        width: calc(50% - 12%);
+        padding: 0 7% 5% 5%;
+    }
+}
+
+.heading {
+    font-size: 2.5em;
+    font-weight: normal;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin: 2px;
+    padding: 2px;
+}
