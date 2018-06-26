@@ -10,10 +10,10 @@ For more details, take a look at the project instructions in the [Udacity Classr
 
  ## Demo
 
-[![demo](./demo.png)]
+![demo(./demo.png)]
 
 
-## How to get started :-
-Click on this [LINK](https://hajerrrh.github.io/Pixel-Art-Maker/) to see the live version of the website.
+
+Click on this [LINK](https://hajerrrh.github.io/Pixel-Art-Maker/) to see the live version of the website and try to customize your canvas.
 ### OR
-Download or Clone the Project . After getting the file , Open the index.html in your browser to see the website up and running .
+Download or Clone the Project . After getting the file , Open the index.html in your browser to see the website up and running.
