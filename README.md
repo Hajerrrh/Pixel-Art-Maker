@@ -1,7 +1,6 @@
 # Pixel-Art-Maker
 A single-page web app that allows users to draw pixel art on a customizable canvas. 
-# Pixel Art Maker Project
-
+ #7DaysofCode Challenge - Udacity
 
 ## Instructions
 
