@@ -10,7 +10,8 @@ For more details, take a look at the project instructions in the [Udacity Classr
 
  ## Demo
 
-![demo(./demo.png)]
+![demo](./demo.png)
+
 
 
 
