@@ -9,10 +9,9 @@ To get started, open `designs.js` and start building out a digital masterpiece b
 For more details, take a look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
 
  ## Demo
-+
-+[![demo](./demo.png)]
-+
-+> [Check it live](https://hajerrrh.github.io/Pixel-Art-Maker/).
+
+[![demo](./demo.png)]
+
 
 ## How to get started :-
 Click on this [LINK](https://hajerrrh.github.io/Pixel-Art-Maker/) to see the live version of the website.
